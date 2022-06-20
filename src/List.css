@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+.Item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 180px;
+  height: 20px;
+  border: 1px solid #ede7f6;
+  border-radius: 2px;
+  padding: 10px;
+  background: rgb(77,14,77);
+}
+.Item p{
+  margin: 0;
+  font-family: "fantasy";
+  font-size: 18px;
+}
+.Item button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 2px;
+
+}
